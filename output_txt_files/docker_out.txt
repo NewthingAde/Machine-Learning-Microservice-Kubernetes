@@ -8,3 +8,12 @@
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
 172.17.0.1 - - [23/Mar/2022 23:41:50] "POST /predict HTTP/1.1" 200 -
+
+
+(base) Oluwaseguns-MBP:project-ml-microservice-kubernetes oluwasegunadesanya$ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
